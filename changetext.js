@@ -23,7 +23,7 @@ const color = [
     "purple",
     "pink",
     "brown",
-    "black",
+    "skyblue",
     "white"
 ];
 
@@ -49,6 +49,7 @@ function changeText() {
     document.getElementById("heading").innerHTML = greet[Math.floor(Math.random() * (greet.length - 1))];
     document.getElementById("heading").style.color = color[Math.floor(Math.random() * (color.length -1))];
     document.getElementById("heading").style.fontFamily = font[Math.floor(Math.random() * (font.length -1))];
+    document.getElementById("button").style.backgroundColor = color[Math.floor(Math.random() * (color.length -1))];
 
     /*
     var confirmation = confirm("Do you want to show the success alert?");
