@@ -27,9 +27,28 @@ const color = [
     "white"
 ];
 
+const font = [
+    "Arial",
+    "Helvetica",
+    "Times New Roman",
+    "Times",
+    "Courier New",
+    "Courier",
+    "Verdana",
+    "Georgia",
+    "Palatino",
+    "Garamond",
+    "Bookman",
+    "Comic Sans MS",
+    "Trebuchet MS",
+    "Arial Black",
+    "Impact"
+];
+
 function changeText() {
     document.getElementById("heading").innerHTML = greet[Math.floor(Math.random() * (greet.length - 1))];
     document.getElementById("heading").style.color = color[Math.floor(Math.random() * (color.length -1))];
+    document.getElementById("heading").style.fontFamily = font[Math.floor(Math.random() * (font.length -1))];
 
     /*
     var confirmation = confirm("Do you want to show the success alert?");
