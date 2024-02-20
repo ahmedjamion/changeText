@@ -9,6 +9,10 @@
     touch-action: manipulation;
 }
 
+img {
+    height: 200px;
+}
+
 h1 {
     text-align: center;
 }
