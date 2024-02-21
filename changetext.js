@@ -14,6 +14,22 @@ const greet = [
     "Apa khabar dunia!"                      // Malay (additional)
 ];
 
+const country = [
+    "World",
+    "Japan",
+    "South Korea",
+    "Philippines (Bisaya/Cebuano)",
+    "Thailand",
+    "Malaysia",
+    "Laos",
+    "Cambodia",
+    "Philippines (Tagalog)",
+    "Myanmar",
+    "Laos",
+    "Cambodia",
+    "Malaysia"
+];
+
 const color = [
     "red",
     "blue",
@@ -24,7 +40,7 @@ const color = [
     "pink",
     "brown",
     "skyblue",
-    "white"
+    "cyan"
 ];
 
 const font = [
@@ -46,10 +62,12 @@ const font = [
 ];
 
 function changeText() {
-    document.getElementById("heading").innerHTML = greet[Math.floor(Math.random() * (greet.length - 1))];
-    document.getElementById("heading").style.color = color[Math.floor(Math.random() * (color.length -1))];
-    document.getElementById("heading").style.fontFamily = font[Math.floor(Math.random() * (font.length -1))];
-    document.getElementById("button").style.backgroundColor = color[Math.floor(Math.random() * (color.length -1))];
+    var randomGreet = Math.floor(Math.random() * (greet.length))
+    document.getElementById("heading").innerHTML = greet[randomGreet];
+    document.getElementById("heading").style.color = color[Math.floor(Math.random() * (color.length))];
+    document.getElementById("heading").style.fontFamily = font[Math.floor(Math.random() * (font.length))];
+    document.getElementById("button").style.backgroundColor = color[Math.floor(Math.random() * (color.length))];
+    document.getElementById("country").innerHTML = country[randomGreet];
 
     /*
     var confirmation = confirm("Do you want to show the success alert?");
