@@ -9,9 +9,7 @@ const greet = [
     "Suostei bplor lork!",                   // Khmer
     "Kumusta mundo!",                        // Filipino (Tagalog)
     "Mingalarbar kamabae, min-ga-la-ba.",    // Burmese
-    "Sabai dee look!",                       // Lao (additional)
-    "Suostei sdei bor lork!",                // Khmer (additional)
-    "Apa khabar dunia!"                      // Malay (additional)
+    "Sabai dee look!"                        // Lao (additional)
 ];
 
 const country = [
@@ -25,9 +23,7 @@ const country = [
     "Cambodia",
     "Philippines (Tagalog)",
     "Myanmar",
-    "Laos",
-    "Cambodia",
-    "Malaysia"
+    "Laos"
 ];
 
 const color = [
@@ -57,8 +53,7 @@ const font = [
     "Bookman",
     "Comic Sans MS",
     "Trebuchet MS",
-    "Arial Black",
-    "Impact"
+    "Arial Black"
 ];
 
 function changeText() {
