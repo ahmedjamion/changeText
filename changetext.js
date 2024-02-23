@@ -8,8 +8,7 @@ const greet = [
     "Sabai dee meu tiak!",                   // Lao
     "Suostei bplor lork!",                   // Khmer
     "Kumusta mundo!",                        // Filipino (Tagalog)
-    "Mingalarbar kamabae, min-ga-la-ba.",    // Burmese
-    "Sabai dee look!"                        // Lao (additional)
+    "Mingalarbar kamabae, min-ga-la-ba."     // Burmese
 ];
 
 const country = [
@@ -22,8 +21,7 @@ const country = [
     "Laos",
     "Cambodia",
     "Philippines (Tagalog)",
-    "Myanmar",
-    "Laos"
+    "Myanmar"
 ];
 
 const color = [
